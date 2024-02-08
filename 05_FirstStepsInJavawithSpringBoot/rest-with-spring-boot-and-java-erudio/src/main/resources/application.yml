@@ -6,10 +6,11 @@ spring:
     username: root
     password: 123456
   jpa:
+    open-in-view: false
     hibernate:
       ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-    show-sql: true
+    # properties:
+      # hibernate:
+        # dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: false
   
