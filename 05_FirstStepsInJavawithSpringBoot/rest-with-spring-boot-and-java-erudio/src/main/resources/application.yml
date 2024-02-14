@@ -1,5 +1,6 @@
 
 spring:
+  
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/rest_witf_spring_boot_erudio?useTimezone=true&serverTimezone=UTC
@@ -13,4 +14,6 @@ spring:
       # hibernate:
         # dialect: org.hibernate.dialect.MySQLDialect
     show-sql: false
+    properties:
+      debug: true
   
