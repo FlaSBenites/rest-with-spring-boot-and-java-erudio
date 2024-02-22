@@ -16,4 +16,8 @@ spring:
     show-sql: false
     properties:
       debug: true
+springdoc:
+  pathsToMatch: /api/**/v1/**
+  swagger-ui:
+    use-root-path: true
   
